@@ -1,0 +1,100 @@
+
+.ToolWorkBg{
+    background:#f3f3f3;
+    padding: 64px 20px;
+    margin-bottom: 6rem;
+  
+}
+.ProjectInfo{
+    ul{
+        padding-left: 0;
+        li{
+            h3{
+                color: #9b9b9b;
+                font-size: 15px;
+                font-weight: 600;
+                letter-spacing: 1px;
+            }
+            p{
+               
+                font-size: 24px;
+                font-family: 'Lato', sans-serif;
+                color: #2b241b;
+                letter-spacing: 1px;
+                font-weight: 500;
+            }
+        }
+    }
+    h2{
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        color: #5ab55aeb;
+        margin-bottom: 28px;
+    }
+    .ProjectDescrptn{
+        margin-top: 4rem;
+        li{
+            p{
+                font-size: 20px;
+                font-family: 'Poppins', sans-serif;
+                color: #9b9b9b;
+                line-height: 45px;
+               
+            }
+        }
+    }
+    .ToolAppLink{
+        li{
+            a{
+                img{
+                    border-radius: 7px;
+                }
+            }
+            float: left;
+            margin-right: 23px;
+            .Iosbadge{
+                display: none;
+            }
+            .androidbadge{
+                display: none;
+              
+            }
+            .webBadge{
+                display: none;
+            }
+        }
+    }
+  
+}
+.MainImageTool{
+    text-align: center;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    .ProjectInfo{
+       .ToolAppLink{
+            li{
+                margin-bottom: 20px;
+            }
+        }
+            .ProjectDescrptn{
+                margin-top: 1rem;
+            }
+        }
+        .ProjectmainImage{
+                    width: 100%;
+        }
+     
+            .MainImageTool{
+                text-align: left !important;
+                padding-left: 0 !important;
+            }
+   }
+ @media only screen and (min-width:768px) and (max-width:1023px){
+    .MainImageTool{
+        text-align: left !important;
+        padding-left: 0 !important;
+    }
+ }
